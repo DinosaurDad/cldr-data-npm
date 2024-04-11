@@ -5,6 +5,8 @@
  * Released under the MIT license
  * https://github.com/rxaviers/cldr-data-npm/blob/master/LICENSE-MIT
  */
+import url from "node:url"
+const __dirname = url.fileURLToPath(new URL('.', import.meta.url));
 
 "use strict";
 
