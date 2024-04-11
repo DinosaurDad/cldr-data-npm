@@ -96,4 +96,4 @@ cldrData.entireSupplemental = function() {
   return cldrData.apply({}, supplementalPaths());
 }
 
-module.exports = cldrData;
+export default cldrData;
